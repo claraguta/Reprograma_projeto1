@@ -6,8 +6,11 @@ O objetivo do projeto é criar um sistema onde seja possível gerenciar informa�
 
 ## Tecnologias
 > Linguagem: Javascript
+
 > Ambiente de execução: nodejs
+
 > Gerenciador de pacotes: npm
+
 > Dependência para receber os inputs: readline-sync
 ## Requisitos
 Os requisitos do projeto eram:
@@ -16,21 +19,11 @@ Os requisitos do projeto eram:
  listarRecomendados Deverá listar livros que já foram lidos e que são recomendados
  listarLivrosNaoLidos Deverá listar livros que ainda não foram lidos
 
+## Arquitetura
 A estrutura do VS Code deveria ficar assim (e ficou, ô glória!!!!)
 
-## Arquitetura
- 📁 projeto-de-livros
-   |- 📁 controllers
-   |     |- 📄 buscarLivros.js
-   |     |- 📄 listarRecomendados.js
-   |     |- 📄 listarLivrosNaoLidos.js
-   |     |- 📄 listarLivrosOrdenados.js
-   |- 📁 node_modules
-   |- 📄 app.js
-   |- 📄 database.js
-   |- 📄 .gitignore
-   |- 📄 package.json  
-   |- 📄 package-lock.json
+![Linda ela](arquitetura.png)
+
 
 Como banco de dados, eu usei livros de minha autoria ([para saber mais entra aqui](www.clarasavelli.com)) e da autoria de duas amigas escritoras que amo muito, a Aimee Oliveira e a Larissa Siriani. Se algum livro aparece no banco de dados ainda como "não recomendo" é porque ainda não li :B (mas na verdade mesmo não lendo eu já recomendo sim!!!!).
 
