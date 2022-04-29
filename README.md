@@ -22,7 +22,7 @@ Os requisitos do projeto eram:
 ## Arquitetura
 A estrutura do VS Code deveria ficar assim (e ficou, ô glória!!!!)
 
-![Linda ela](arquitetura.png)
+![Linda ela](arquitetura.jpg)
 
 
 Como banco de dados, eu usei livros de minha autoria ([para saber mais entra aqui](www.clarasavelli.com)) e da autoria de duas amigas escritoras que amo muito, a Aimee Oliveira e a Larissa Siriani. Se algum livro aparece no banco de dados ainda como "não recomendo" é porque ainda não li :B (mas na verdade mesmo não lendo eu já recomendo sim!!!!).
